@@ -1,7 +1,7 @@
 #  Deploy the Jekyll Static Site Generator (SSG)
 
 This repository contains the Kubernetes manifests and configuration scripts for deploying the **Jekyll SSG architecture** shown below.  
-![Jekyll SSG Architecture](./kubernetes-challenge1-archi)
+![Jekyll SSG Architecture](./kubernetes-challenge1-archi.png)
 
 > **Note:**  
 > The **PersistentVolume (`jekyll-pv`)** and **Namespace (`development`)** are already created, we do **not** need to recreate them.
@@ -71,3 +71,4 @@ This repository contains the Kubernetes manifests and configuration scripts for 
 * rolebinding = developer-rolebinding should be associated with user = 'martin'
 
 </details>
+
